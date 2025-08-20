@@ -1,7 +1,7 @@
 :root {
     --text-color: #DBE4EF;
     --card-front-color: #144480;
-    --card-back-color: #00F4BF;
+    --card-back-color: #f400ab;
 }
 
 
@@ -31,7 +31,7 @@ footer p{
 }
 .cartao{
     margin: 1rem 1rem;
-    background-color: rgb(199, 142, 245);
+    
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33%-6rem);
@@ -40,13 +40,14 @@ footer p{
 
 .cartao__conteudo {
     text-align: center;
-    background-color: rgb(247, 134, 237);
+    background-color: var(--card-front-color);
     height: 100%;
 }
 
 .cartao__conteudo h3{
     color: var(--text-color);
     border: 1px solid var(--text-color);
+
     text-align: left;
     padding: 0.5rem;
     position: absolute;
